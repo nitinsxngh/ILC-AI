@@ -27,19 +27,19 @@ const formSteps: FormStep[] = [
     description: 'How can we assist you today?',
     items: [
       {
-        id: 'ai-help',
-        title: 'Let AI Help You',
-        description: 'Get recommendations based on your needs',
-        image: 'https://res.cloudinary.com/dvztynz8i/image/upload/v1741240490/ILC-AI/j6muwuo1nq5viq8fxfnn.png',
-        icon: Code2Icon,
-        validNextSteps: ['social-media', 'news-article', 'family-friends', 'google-search', 'others'],
-      },
-      {
         id: 'schedule-call',
         title: 'Schedule a Call',
         description: 'Talk to one of our experts',
         image: 'https://res.cloudinary.com/dvztynz8i/image/upload/v1741240489/ILC-AI/orwtdymurbyia7gc0ovg.png',
         icon: GlobeIcon,
+        validNextSteps: ['social-media', 'news-article', 'family-friends', 'google-search', 'others'],
+      },
+      {
+        id: 'ai-help',
+        title: 'Let AI Help You',
+        description: 'Get recommendations based on your needs',
+        image: 'https://res.cloudinary.com/dvztynz8i/image/upload/v1741240490/ILC-AI/j6muwuo1nq5viq8fxfnn.png',
+        icon: Code2Icon,
         validNextSteps: ['social-media', 'news-article', 'family-friends', 'google-search', 'others'],
       },
     ],
