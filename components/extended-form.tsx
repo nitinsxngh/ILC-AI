@@ -336,7 +336,7 @@ export default function ExtendedForm() {
       cardClassName="pb-2"
       finalStep={
         <div className="flex items-center gap-2">
-          <span className="font-semibold">Thank you</span>
+          <span className="font-semibold">Thank you, Our Team Will Soon Reach You!</span>
           <Code2Icon className="h-5 w-5" />
           <span className="font-semibold">ILC</span>
         </div>

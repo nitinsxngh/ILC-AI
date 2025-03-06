@@ -402,7 +402,7 @@ const MultiStepForm = React.forwardRef<HTMLDivElement, MultiStepFormProps>(
         className={cn('flex flex-col items-center', className)}
         {...props}
       >
-        <div className="w-full max-w-5xl p-2 min-h-screen h-screen">
+        <div className="w-full max-w-5xl p-2 min-h-screen">
           <Card className="w-full mx-auto p-6 shadow-lg p-2 md:p-6 h-full">
             <div className="mb-8 p-4 md:p-0">
               <div className="flex items-center justify-between mb-4">

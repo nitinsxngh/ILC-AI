@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <main
-      className="min-h-screen"
+      className=""
       style={{ background: 'linear-gradient(90deg, #050b55 41%, #03073a 70%)' }}
     >
       {loading ? <Loader /> : <ExtendedForm />}
